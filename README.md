@@ -1,6 +1,7 @@
 # CIS 3120 Final Project
 ## By: Faraj Arvid
 
+### [Video Presentation](https://www.youtube.com/watch?v=P8wBLTAJ26M)
 ### [API Documentation](https://www.api-football.com/documentation-v3)
 
 ### Project Purpose and Functionality
@@ -40,7 +41,7 @@ Similarly, I want to ensure that my analysis is thorough by exploring the contex
 The above screenshot is from the API documentation and shows all the endpoints and their parameters. The two boxes highlighted in green are the two endpoints I focused on for this project. For the standings endpoint, I utilized it to fetch standings from various leagues across the world for a particular season for examination. For the players endpoint, I used it to fetch the players who received the most red cards in certain leagues for a particular season to test a certain hypothesis. Further details on the analysis of these API fetches are provided in the next section below.
 
 ### Data Visualization Interpretation
-For some context, one of the main inspirations that I had for using API-FOOTBALLI was to create visualizations that would test certain stereotypes and common beliefs that football fans have. For example, many fans believe football outside of Europe is worse and at a lower standard or that footballers born and raised in the Brazilian style are the most gifted players in the world. 
+For some context, one of the main inspirations that I had for using API-FOOTBALLI was to create visualizations that would test certain stereotypes and common beliefs that football fans have. For example, many fans believe football outside of Europe is worse and at a lower standard, or that footballers born and raised in the Brazilian style are the most gifted players in the world. 
 
 I decided to narrow my project to two certain questions:
 - The English League is the most popular league worldwide and is regarded as the most exciting. But which league is the most exciting league in the world?
