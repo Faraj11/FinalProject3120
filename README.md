@@ -13,6 +13,26 @@ the API, I strive to analyze both team and player performance, visualize trends,
 Similarly, I want to ensure that my analysis is thorough by exploring the context and limitations of the data, which will allow for a better interpretation of the results.
 
 ### Installation Instructions
+1. Download GitHub Repository
+   - Clone or download the project files from the GitHub repository.
+2. Create an Account
+   - Go to [API-Football](https://www.api-football.com/) and sign up for a free account.
+   - Log in to your account and navigate to [your profile](https://dashboard.api-football.com/profile?access) to find your API key.
+3. Set Up the API Key
+   - Create a new file in the project directory named `API_key.py`.
+   - Add the following code to `API_key.py`:
+   ```python
+   API_KEY = 'your_api_key_here'
+   ```
+   Replace `your_api_key_here` with your actual API key
+4. Verify Necessary Libraries
+   - Ensure the following Python libraries are installed:
+     - `requests`
+     - `pandas`
+     - `matplotlib`
+5. Run the File
+   - Open the project in Jupyter Notebook or VS Code for the best experience.
+   - Run the script to view the outputs and visualizations.
 
 ### API Architecture
 ![image](https://github.com/user-attachments/assets/bb41ecef-a349-4dd6-a2fb-4e4eb3e7865e)
@@ -48,7 +68,7 @@ Conclusion: the Italian league is up there as one of the most physical/rough/dir
 Many older fans of football are not impressed by sports analytics and think that analytics cannot take into account many factors and as a result, they base their fandom on watching games and the eye test only. Working on this project helped reinforce the idea that numbers can "lie" and context is almost always needed when examining analytics and statistics, especially in scenarios involving sports where so many factors can influence a variable. From the generated visualizations and analysis, it is clear that there are some limitations to this data and what it implies. The limitations include:
 
 - I only used 5 leagues around the world because these 5 have been known as the top 5 leagues in the world for as long as I have watched football. They are all from Europe and overlap in many ways and it is common practice to group these 5 in an exclusive class for comparison. Using only 5 leagues certainly limits the scope of this project and its findings, but it allowed me to complete all the parts that I desired to complete and still produced a satisfactory result in my opinion.
-- As stated before, I measured the excitement and entertainment of a league based on the assumption that more goals equals more fun to watch/more excitement. I believe this logic makes sense but there are 100% other factors that may influence the excitement of a specific league match including player injuries, match time/location/scheduling, importance of the match, etc.
+- As stated before, I measured the excitement and entertainment of a league based on the assumption that more goals equal more entertainment/excitement. I believe this logic makes sense but there are 100% other factors that may influence the excitement of a specific league match including player injuries, match time/location/scheduling, importance of the match, etc.
 - As stated before, I measured the danger and physicality of a league based on the assumption that physical players play dirtier and get red cards. I believe this is the only way I can quantifiably measure physicality in any manner, so even though external factors can influence the roughness of a league and its players, this assumption is needed to be able to conduct the resulting analysis.
 - The sample size of players with the most red cards earned in a season was limited to 20 per league by the API. This is most likely one of the limits of the free version of the API but it results in a very small sample size that may not provide an accurate representation of the actual red card distribution across the top 5 leagues. Potential solutions to this problem could be using the premium version of the API or another football API entirely.
 - The visualizations and data analysis is entirely based on only the 2022 season. This season is the latest season of data that is available on the free version of the API. Regardless, utilizing earlier seasons and comparing the metrics and data to this season would be useful to determine if the data from this season aligns with other years or if any of the values from this season are outliers and out of the norm.
